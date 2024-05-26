@@ -130,7 +130,7 @@ public class App {
 			.setServerInvite(Links.DISCORD)
 			.setScheduleExecutor(scheduledExecutor)
 			.setStatus(OnlineStatus.ONLINE)
-			.setActivity(Activity.customStatus("/help"))
+			.setActivity(Activity.customStatus("-> /help"))
 			.addSlashCommands(
 				// guild
 				new AccessCmd(this),
